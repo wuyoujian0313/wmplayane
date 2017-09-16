@@ -30,10 +30,12 @@ either expressed or implied, of the FreeBSD Project.
 -->
 
 <platform xmlns="http://ns.adobe.com/air/extension/3.1"> 
-    <description > An optional description</description> 
-    <copyright>2012 (optional)</copyright> 
+    <description >WeiMeiTC Extension</description>
+    <copyright>WeiMeiTCPlayANE (optional)</copyright>
     <linkerOptions> 
 <!--        <option>-framework CoreMotion</option> -->
+        <option>-framework MediaPlayer</option>
+        <option>-framework AVKit</option>
     </linkerOptions> 
 </platform>
 

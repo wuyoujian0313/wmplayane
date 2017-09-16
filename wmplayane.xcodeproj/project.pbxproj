@@ -24,6 +24,10 @@
 		AFBBF1F91F6D7EDF00E17BD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F81F6D7EDF00E17BD4 /* Security.framework */; };
 		AFBBF2081F6D7EDF00E17BD4 /* wmplayane.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBBF2071F6D7EDF00E17BD4 /* wmplayane.h */; };
 		AFBBF20A1F6D7EDF00E17BD4 /* wmplayane.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBBF2091F6D7EDF00E17BD4 /* wmplayane.m */; };
+		AFBBF21C1F6D810500E17BD4 /* ANEExtensionFuncAV.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBBF21A1F6D810500E17BD4 /* ANEExtensionFuncAV.h */; };
+		AFBBF21D1F6D810500E17BD4 /* ANEExtensionFuncAV.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBBF21B1F6D810500E17BD4 /* ANEExtensionFuncAV.m */; };
+		AFBBF21F1F6D818300E17BD4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF21E1F6D818300E17BD4 /* AVKit.framework */; };
+		AFBBF2211F6D819400E17BD4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF2201F6D819400E17BD4 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		AFBBF20C1F6D7EDF00E17BD4 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
 		AFBBF20D1F6D7EDF00E17BD4 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
 		AFBBF20E1F6D7EDF00E17BD4 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+		AFBBF21A1F6D810500E17BD4 /* ANEExtensionFuncAV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEExtensionFuncAV.h; sourceTree = "<group>"; };
+		AFBBF21B1F6D810500E17BD4 /* ANEExtensionFuncAV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEExtensionFuncAV.m; sourceTree = "<group>"; };
+		AFBBF21E1F6D818300E17BD4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		AFBBF2201F6D819400E17BD4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBBF2211F6D819400E17BD4 /* MediaPlayer.framework in Frameworks */,
+				AFBBF21F1F6D818300E17BD4 /* AVKit.framework in Frameworks */,
 				AFBBF1F31F6D7EDF00E17BD4 /* CoreMedia.framework in Frameworks */,
 				AFBBF1F91F6D7EDF00E17BD4 /* Security.framework in Frameworks */,
 				AFBBF1DF1F6D7EDF00E17BD4 /* CoreFoundation.framework in Frameworks */,
@@ -119,6 +129,8 @@
 		AFBBF1DB1F6D7EDF00E17BD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFBBF2201F6D819400E17BD4 /* MediaPlayer.framework */,
+				AFBBF21E1F6D818300E17BD4 /* AVKit.framework */,
 				AFBBF1DC1F6D7EDF00E17BD4 /* Foundation.framework */,
 				AFBBF1DE1F6D7EDF00E17BD4 /* CoreFoundation.framework */,
 				AFBBF1E01F6D7EDF00E17BD4 /* UIKit.framework */,
@@ -143,6 +155,8 @@
 			children = (
 				AFBBF2071F6D7EDF00E17BD4 /* wmplayane.h */,
 				AFBBF2091F6D7EDF00E17BD4 /* wmplayane.m */,
+				AFBBF21A1F6D810500E17BD4 /* ANEExtensionFuncAV.h */,
+				AFBBF21B1F6D810500E17BD4 /* ANEExtensionFuncAV.m */,
 				AFBBF2051F6D7EDF00E17BD4 /* Supporting Files */,
 			);
 			path = wmplayane;
@@ -167,6 +181,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBBF21C1F6D810500E17BD4 /* ANEExtensionFuncAV.h in Headers */,
 				AFBBF2081F6D7EDF00E17BD4 /* wmplayane.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBBF20A1F6D7EDF00E17BD4 /* wmplayane.m in Sources */,
+				AFBBF21D1F6D810500E17BD4 /* ANEExtensionFuncAV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,9 +387,12 @@
 		AFBBF2121F6D7EDF00E17BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/wmplayane.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -383,9 +402,12 @@
 		AFBBF2131F6D7EDF00E17BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/wmplayane.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -396,9 +418,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
-				NATIVEEXTENSION_SWC = /;
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				NATIVEEXTENSION_SWC = wmplayane/wmplay.swc;
 				PRODUCT_NAME = wmplayane;
 			};
 			name = Debug;
@@ -407,9 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				ARCHS = "$(ARCHS_STANDARD)";
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
-				NATIVEEXTENSION_SWC = /;
+				GCC_VERSION = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				NATIVEEXTENSION_SWC = wmplayane/wmplay.swc;
 				PRODUCT_NAME = wmplayane;
 			};
 			name = Release;

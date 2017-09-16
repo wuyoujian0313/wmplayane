@@ -39,6 +39,10 @@
  */
 
 #import "wmplayane.h"
+#import "ANEExtensionFuncAV.h"
+
+
+ANEExtensionFuncAV *globalANEExFuc;
 
 /* wmplayaneExtInitializer()
  * The extension initializer is called the first time the ActionScript side of the extension
@@ -82,12 +86,14 @@ void ContextInitializer(void* extData, const uint8_t* ctxType, FREContext ctx, u
      */
     static FRENamedFunction func[] = 
     {
-        MAP_FUNCTION(isSupported, NULL),
+        MAP_FUNCTION(playAV, NULL),
+        MAP_FUNCTION(playAVForLocal, NULL),
     };
     
     *numFunctionsToTest = sizeof(func) / sizeof(FRENamedFunction);
     *functionsToSet = func;
     
+    globalANEExFuc = [[ANEExtensionFuncAV alloc] initWithContext:ctx];
     NSLog(@"Exiting ContextInitializer()");
 }
 
@@ -106,28 +112,11 @@ void ContextFinalizer(FREContext ctx)
 }
 
 
-/* This is a TEST function that is being included as part of this template. 
- *
- * Users of this template are expected to change this and add similar functions 
- * to be able to call the native functions in the ANE from their ActionScript code
- */
-ANE_FUNCTION(isSupported)
-{
-    NSLog(@"Entering IsSupported()");
-    
-    FREObject fo;
-    
-    FREResult aResult = FRENewObjectFromBool(YES, &fo);
-    if (aResult == FRE_OK)
-    {
-        NSLog(@"Result = %d", aResult);
-    }
-    else
-    {
-        NSLog(@"Result = %d", aResult);
-    }
-    
-	NSLog(@"Exiting IsSupported()");    
-	return fo;
+ANE_FUNCTION(playAV) {
+    return [globalANEExFuc playAV:argv[0]];
+}
+
+ANE_FUNCTION(playAVForLocal) {
+    return [globalANEExFuc playAVForLocal:argv[0]];
 }
 
