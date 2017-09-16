@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'wmplayane' target in the 'wmplayane' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

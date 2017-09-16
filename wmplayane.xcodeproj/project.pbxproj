@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFBBF1DD1F6D7EDF00E17BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1DC1F6D7EDF00E17BD4 /* Foundation.framework */; };
+		AFBBF1DF1F6D7EDF00E17BD4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1DE1F6D7EDF00E17BD4 /* CoreFoundation.framework */; };
+		AFBBF1E11F6D7EDF00E17BD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1E01F6D7EDF00E17BD4 /* UIKit.framework */; };
+		AFBBF1E31F6D7EDF00E17BD4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1E21F6D7EDF00E17BD4 /* MobileCoreServices.framework */; };
+		AFBBF1E51F6D7EDF00E17BD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1E41F6D7EDF00E17BD4 /* CoreGraphics.framework */; };
+		AFBBF1E71F6D7EDF00E17BD4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1E61F6D7EDF00E17BD4 /* SystemConfiguration.framework */; };
+		AFBBF1E91F6D7EDF00E17BD4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1E81F6D7EDF00E17BD4 /* AudioToolbox.framework */; };
+		AFBBF1EB1F6D7EDF00E17BD4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1EA1F6D7EDF00E17BD4 /* CFNetwork.framework */; };
+		AFBBF1ED1F6D7EDF00E17BD4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1EC1F6D7EDF00E17BD4 /* QuartzCore.framework */; };
+		AFBBF1EF1F6D7EDF00E17BD4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1EE1F6D7EDF00E17BD4 /* OpenGLES.framework */; };
+		AFBBF1F11F6D7EDF00E17BD4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F01F6D7EDF00E17BD4 /* CoreLocation.framework */; };
+		AFBBF1F31F6D7EDF00E17BD4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F21F6D7EDF00E17BD4 /* CoreMedia.framework */; };
+		AFBBF1F51F6D7EDF00E17BD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F41F6D7EDF00E17BD4 /* CoreVideo.framework */; };
+		AFBBF1F71F6D7EDF00E17BD4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F61F6D7EDF00E17BD4 /* AVFoundation.framework */; };
+		AFBBF1F91F6D7EDF00E17BD4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBBF1F81F6D7EDF00E17BD4 /* Security.framework */; };
+		AFBBF2081F6D7EDF00E17BD4 /* wmplayane.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBBF2071F6D7EDF00E17BD4 /* wmplayane.h */; };
+		AFBBF20A1F6D7EDF00E17BD4 /* wmplayane.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBBF2091F6D7EDF00E17BD4 /* wmplayane.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFBBF2001F6D7EDF00E17BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBBF1D11F6D7EDF00E17BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBBF1D81F6D7EDF00E17BD4;
+			remoteInfo = wmplayane;
+		};
+		AFBBF2021F6D7EDF00E17BD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFBBF1D11F6D7EDF00E17BD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFBBF1FB1F6D7EDF00E17BD4;
+			remoteInfo = wmplayane.ane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFBBF1D91F6D7EDF00E17BD4 /* libwmplayane.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwmplayane.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBBF1DC1F6D7EDF00E17BD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFBBF1DE1F6D7EDF00E17BD4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AFBBF1E01F6D7EDF00E17BD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFBBF1E21F6D7EDF00E17BD4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		AFBBF1E41F6D7EDF00E17BD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFBBF1E61F6D7EDF00E17BD4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AFBBF1E81F6D7EDF00E17BD4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AFBBF1EA1F6D7EDF00E17BD4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AFBBF1EC1F6D7EDF00E17BD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFBBF1EE1F6D7EDF00E17BD4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AFBBF1F01F6D7EDF00E17BD4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AFBBF1F21F6D7EDF00E17BD4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AFBBF1F41F6D7EDF00E17BD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AFBBF1F61F6D7EDF00E17BD4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AFBBF1F81F6D7EDF00E17BD4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AFBBF1FC1F6D7EDF00E17BD4 /* wmplayane.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = wmplayane.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBBF1FF1F6D7EDF00E17BD4 /* DebugwmplayaneAIRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebugwmplayaneAIRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBBF2061F6D7EDF00E17BD4 /* wmplayane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wmplayane-Prefix.pch"; sourceTree = "<group>"; };
+		AFBBF2071F6D7EDF00E17BD4 /* wmplayane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wmplayane.h; sourceTree = "<group>"; };
+		AFBBF2091F6D7EDF00E17BD4 /* wmplayane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wmplayane.m; sourceTree = "<group>"; };
+		AFBBF20B1F6D7EDF00E17BD4 /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		AFBBF20C1F6D7EDF00E17BD4 /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		AFBBF20D1F6D7EDF00E17BD4 /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		AFBBF20E1F6D7EDF00E17BD4 /* debugIPA.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = debugIPA.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFBBF1D61F6D7EDF00E17BD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBBF1F31F6D7EDF00E17BD4 /* CoreMedia.framework in Frameworks */,
+				AFBBF1F91F6D7EDF00E17BD4 /* Security.framework in Frameworks */,
+				AFBBF1DF1F6D7EDF00E17BD4 /* CoreFoundation.framework in Frameworks */,
+				AFBBF1F11F6D7EDF00E17BD4 /* CoreLocation.framework in Frameworks */,
+				AFBBF1E31F6D7EDF00E17BD4 /* MobileCoreServices.framework in Frameworks */,
+				AFBBF1F51F6D7EDF00E17BD4 /* CoreVideo.framework in Frameworks */,
+				AFBBF1EB1F6D7EDF00E17BD4 /* CFNetwork.framework in Frameworks */,
+				AFBBF1E11F6D7EDF00E17BD4 /* UIKit.framework in Frameworks */,
+				AFBBF1E51F6D7EDF00E17BD4 /* CoreGraphics.framework in Frameworks */,
+				AFBBF1EF1F6D7EDF00E17BD4 /* OpenGLES.framework in Frameworks */,
+				AFBBF1E91F6D7EDF00E17BD4 /* AudioToolbox.framework in Frameworks */,
+				AFBBF1E71F6D7EDF00E17BD4 /* SystemConfiguration.framework in Frameworks */,
+				AFBBF1DD1F6D7EDF00E17BD4 /* Foundation.framework in Frameworks */,
+				AFBBF1F71F6D7EDF00E17BD4 /* AVFoundation.framework in Frameworks */,
+				AFBBF1ED1F6D7EDF00E17BD4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFBBF1D01F6D7EDF00E17BD4 = {
+			isa = PBXGroup;
+			children = (
+				AFBBF2041F6D7EDF00E17BD4 /* wmplayane */,
+				AFBBF1DB1F6D7EDF00E17BD4 /* Frameworks */,
+				AFBBF1DA1F6D7EDF00E17BD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFBBF1DA1F6D7EDF00E17BD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFBBF1D91F6D7EDF00E17BD4 /* libwmplayane.a */,
+				AFBBF1FC1F6D7EDF00E17BD4 /* wmplayane.ane */,
+				AFBBF1FF1F6D7EDF00E17BD4 /* DebugwmplayaneAIRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFBBF1DB1F6D7EDF00E17BD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFBBF1DC1F6D7EDF00E17BD4 /* Foundation.framework */,
+				AFBBF1DE1F6D7EDF00E17BD4 /* CoreFoundation.framework */,
+				AFBBF1E01F6D7EDF00E17BD4 /* UIKit.framework */,
+				AFBBF1E21F6D7EDF00E17BD4 /* MobileCoreServices.framework */,
+				AFBBF1E41F6D7EDF00E17BD4 /* CoreGraphics.framework */,
+				AFBBF1E61F6D7EDF00E17BD4 /* SystemConfiguration.framework */,
+				AFBBF1E81F6D7EDF00E17BD4 /* AudioToolbox.framework */,
+				AFBBF1EA1F6D7EDF00E17BD4 /* CFNetwork.framework */,
+				AFBBF1EC1F6D7EDF00E17BD4 /* QuartzCore.framework */,
+				AFBBF1EE1F6D7EDF00E17BD4 /* OpenGLES.framework */,
+				AFBBF1F01F6D7EDF00E17BD4 /* CoreLocation.framework */,
+				AFBBF1F21F6D7EDF00E17BD4 /* CoreMedia.framework */,
+				AFBBF1F41F6D7EDF00E17BD4 /* CoreVideo.framework */,
+				AFBBF1F61F6D7EDF00E17BD4 /* AVFoundation.framework */,
+				AFBBF1F81F6D7EDF00E17BD4 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFBBF2041F6D7EDF00E17BD4 /* wmplayane */ = {
+			isa = PBXGroup;
+			children = (
+				AFBBF2071F6D7EDF00E17BD4 /* wmplayane.h */,
+				AFBBF2091F6D7EDF00E17BD4 /* wmplayane.m */,
+				AFBBF2051F6D7EDF00E17BD4 /* Supporting Files */,
+			);
+			path = wmplayane;
+			sourceTree = "<group>";
+		};
+		AFBBF2051F6D7EDF00E17BD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFBBF2061F6D7EDF00E17BD4 /* wmplayane-Prefix.pch */,
+				AFBBF20B1F6D7EDF00E17BD4 /* extension.xml */,
+				AFBBF20C1F6D7EDF00E17BD4 /* platformoptions.xml */,
+				AFBBF20D1F6D7EDF00E17BD4 /* generateANE.sh */,
+				AFBBF20E1F6D7EDF00E17BD4 /* debugIPA.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFBBF1D71F6D7EDF00E17BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBBF2081F6D7EDF00E17BD4 /* wmplayane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFBBF1D81F6D7EDF00E17BD4 /* wmplayane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBBF2111F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "wmplayane" */;
+			buildPhases = (
+				AFBBF1D51F6D7EDF00E17BD4 /* Sources */,
+				AFBBF1D61F6D7EDF00E17BD4 /* Frameworks */,
+				AFBBF1D71F6D7EDF00E17BD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wmplayane;
+			productName = wmplayane;
+			productReference = AFBBF1D91F6D7EDF00E17BD4 /* libwmplayane.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFBBF1FB1F6D7EDF00E17BD4 /* wmplayane.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBBF2141F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "wmplayane.ane" */;
+			buildPhases = (
+				AFBBF1FA1F6D7EDF00E17BD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFBBF2011F6D7EDF00E17BD4 /* PBXTargetDependency */,
+			);
+			name = wmplayane.ane;
+			productName = wmplayane.ane;
+			productReference = AFBBF1FC1F6D7EDF00E17BD4 /* wmplayane.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFBBF1FE1F6D7EDF00E17BD4 /* DebugwmplayaneAIRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFBBF2171F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "DebugwmplayaneAIRApp" */;
+			buildPhases = (
+				AFBBF1FD1F6D7EDF00E17BD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFBBF2031F6D7EDF00E17BD4 /* PBXTargetDependency */,
+			);
+			name = DebugwmplayaneAIRApp;
+			productName = DebugwmplayaneAIRApp;
+			productReference = AFBBF1FF1F6D7EDF00E17BD4 /* DebugwmplayaneAIRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFBBF1D11F6D7EDF00E17BD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					AFBBF1D81F6D7EDF00E17BD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AFBBF1FB1F6D7EDF00E17BD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AFBBF1FE1F6D7EDF00E17BD4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFBBF1D41F6D7EDF00E17BD4 /* Build configuration list for PBXProject "wmplayane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFBBF1D01F6D7EDF00E17BD4;
+			productRefGroup = AFBBF1DA1F6D7EDF00E17BD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFBBF1D81F6D7EDF00E17BD4 /* wmplayane */,
+				AFBBF1FB1F6D7EDF00E17BD4 /* wmplayane.ane */,
+				AFBBF1FE1F6D7EDF00E17BD4 /* DebugwmplayaneAIRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFBBF1FA1F6D7EDF00E17BD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+		AFBBF1FD1F6D7EDF00E17BD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/debugIPA.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFBBF1D51F6D7EDF00E17BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBBF20A1F6D7EDF00E17BD4 /* wmplayane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFBBF2011F6D7EDF00E17BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFBBF1D81F6D7EDF00E17BD4 /* wmplayane */;
+			targetProxy = AFBBF2001F6D7EDF00E17BD4 /* PBXContainerItemProxy */;
+		};
+		AFBBF2031F6D7EDF00E17BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFBBF1FB1F6D7EDF00E17BD4 /* wmplayane.ane */;
+			targetProxy = AFBBF2021F6D7EDF00E17BD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFBBF20F1F6D7EDF00E17BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/wuyj/youjian.wu/common-lib/AIRSDK/include/";
+			};
+			name = Debug;
+		};
+		AFBBF2101F6D7EDF00E17BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/wuyj/youjian.wu/common-lib/AIRSDK/include/";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFBBF2121F6D7EDF00E17BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/wmplayane.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AFBBF2131F6D7EDF00E17BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/wmplayane.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AFBBF2151F6D7EDF00E17BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = wmplayane;
+			};
+			name = Debug;
+		};
+		AFBBF2161F6D7EDF00E17BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = wmplayane;
+			};
+			name = Release;
+		};
+		AFBBF2181F6D7EDF00E17BD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = DebugwmplayaneAIRApp;
+			};
+			name = Debug;
+		};
+		AFBBF2191F6D7EDF00E17BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
+				NATIVEEXTENSION_SWC = /;
+				PRODUCT_NAME = DebugwmplayaneAIRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFBBF1D41F6D7EDF00E17BD4 /* Build configuration list for PBXProject "wmplayane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBBF20F1F6D7EDF00E17BD4 /* Debug */,
+				AFBBF2101F6D7EDF00E17BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFBBF2111F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "wmplayane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBBF2121F6D7EDF00E17BD4 /* Debug */,
+				AFBBF2131F6D7EDF00E17BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFBBF2141F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "wmplayane.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBBF2151F6D7EDF00E17BD4 /* Debug */,
+				AFBBF2161F6D7EDF00E17BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFBBF2171F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "DebugwmplayaneAIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBBF2181F6D7EDF00E17BD4 /* Debug */,
+				AFBBF2191F6D7EDF00E17BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFBBF1D11F6D7EDF00E17BD4 /* Project object */;
+}
