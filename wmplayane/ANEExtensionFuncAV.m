@@ -72,7 +72,7 @@
         }
     }
     
-    DISPATCH_STATUS_EVENT(self.context, @"play", @"play");
+    DISPATCH_STATUS_EVENT(self.context, [@"play" UTF8String], [@"play" UTF8String]);
     return NULL;
 }
 
@@ -81,7 +81,7 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(movieFinishedCallback:) name:MPMoviePlayerPlaybackDidFinishNotification object:_moviePlayer.moviePlayer];
     [_moviePlayer.moviePlayer setControlStyle: MPMovieControlStyleFullscreen];
-    [_moviePlayer.moviePlayer play];
+    //[_moviePlayer.moviePlayer play];
     
     UIApplication *application = [UIApplication sharedApplication];
     UIViewController *rootVC = application.keyWindow.rootViewController;

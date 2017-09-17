@@ -30,7 +30,7 @@ either expressed or implied, of the FreeBSD Project.
 -->
 
 <extension xmlns="http://ns.adobe.com/air/extension/3.1">
-	<id>com.wmtc.wmplayane</id>
+	<id>comwm.wmtc.wmplayane</id>
 	<versionNumber>1</versionNumber>
 	<platforms>
 		<platform name="iPhone-ARM">

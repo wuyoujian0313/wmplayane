@@ -388,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/wmplayane.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
@@ -403,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/wmplayane.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wmplayane/wmplayane-Prefix.pch";
@@ -419,6 +421,7 @@
 			buildSettings = {
 				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
 				GCC_VERSION = "";
@@ -433,6 +436,7 @@
 			buildSettings = {
 				AIR_SDK_PATH = "/Users/wuyj/youjian.wu/common-lib/AIRSDK";
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				EXECUTABLE_EXTENSION = ane;
 				EXECUTABLE_PREFIX = "";
 				GCC_VERSION = "";
@@ -479,6 +483,7 @@
 				AFBBF2131F6D7EDF00E17BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFBBF2141F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "wmplayane.ane" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +492,7 @@
 				AFBBF2161F6D7EDF00E17BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFBBF2171F6D7EDF00E17BD4 /* Build configuration list for PBXNativeTarget "DebugwmplayaneAIRApp" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +501,7 @@
 				AFBBF2191F6D7EDF00E17BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

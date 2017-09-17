@@ -36,6 +36,8 @@ either expressed or implied, of the FreeBSD Project.
 <!--        <option>-framework CoreMotion</option> -->
         <option>-framework MediaPlayer</option>
         <option>-framework AVKit</option>
+        <option>-ObjC</option>
+        <option>-ios_version_min 7.0</option>
     </linkerOptions> 
 </platform>
 
